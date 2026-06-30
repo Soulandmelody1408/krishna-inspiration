@@ -1,91 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Krishna Inspiration</title>
-
-<style>
-body{
-font-family:Georgia,serif;
-background:#fff9f1;
-display:flex;
-justify-content:center;
-align-items:center;
-height:100vh;
-margin:0;
-}
-
-.card{
-background:white;
-padding:40px;
-width:700px;
-max-width:90%;
-border-radius:25px;
-box-shadow:0 10px 30px rgba(0,0,0,.15);
-text-align:center;
-}
-
-h1{
-color:#17346b;
-}
-
-.quote{
-font-size:32px;
-color:#17346b;
-margin:40px 0;
-line-height:1.5;
-}
-
-button{
-background:#1d2f83;
-color:white;
-border:none;
-padding:18px 35px;
-font-size:20px;
-border-radius:40px;
-cursor:pointer;
-}
-
-button:hover{
-opacity:.9;
-}
-</style>
-
+  <title>Krishna Inspiration</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-<div class="card">
+<body>
 
 <h1>Krishna Inspiration</h1>
 
-<div class="quote" id="quote">
-Click the button below.
-</div>
+<p id="quote">
+Krishna fills my heart with peace and guides me on the path of love.
+</p>
 
-<button onclick="newQuote()">
+<button>
 Give Me Another Inspiration
 </button>
-
-</div>
-
-<script>
-
-const quotes=[
-"May Krishna fill my heart with peace.",
-"I choose love over fear today.",
-"Krishna guides every step I take."
-];
-
-function newQuote(){
-
-const random=Math.floor(Math.random()*quotes.length);
-
-document.getElementById("quote").innerHTML=quotes[random];
-
-}
-
-</script>
 
 </body>
 </html>
