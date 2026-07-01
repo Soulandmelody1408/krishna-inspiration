@@ -203,16 +203,15 @@ const quotes = [
 ];
 
 function newQuote() {
+    let random;
 
- let random;
+    do {
+        random = Math.floor(Math.random() * quotes.length);
+    } while (random === lastIndex);
 
- do {
-   random = Math.floor(Math.random() * quotes.length);
- } while (random === lastIndex);
+    lastIndex = random;
 
- lastIndex = random;
-
- document.getElementById("quote").innerText = quotes[random];
+    document.getElementById("quote").innerText = quotes[random];
 }
 
 window.onload = newQuote;
