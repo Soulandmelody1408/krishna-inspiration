@@ -49,7 +49,7 @@ const quotes = [
 "Light shines within you.",
 "Grace follows surrender.",
 "Choose faith every morning.",
-"Krishna guides every sincere heart."
+"Krishna guides every sincere heart.",
   "Where there is Krishna, there is hope.",
 "A peaceful mind is true wealth.",
 "Let faith replace fear.",
@@ -199,7 +199,7 @@ const quotes = [
 "I welcome happiness into my life.",
 "Every day is a gift from Krishna.",
 "I choose gratitude again and again.",
-"My soul walks in Krishna's light."
+"My soul walks in Krishna's light.",
 ];
 
 function newQuote() {
