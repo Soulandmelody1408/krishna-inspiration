@@ -50,7 +50,7 @@ const quotes = [
 "Grace follows surrender.",
 "Choose faith every morning.",
 "Krishna guides every sincere heart.",
-  "Where there is Krishna, there is hope.",
+"Where there is Krishna, there is hope.",
 "A peaceful mind is true wealth.",
 "Let faith replace fear.",
 "Krishna sees every good deed.",
@@ -99,7 +99,7 @@ const quotes = [
 "Your soul is limitless.",
 "Grace follows gratitude.",
 "Trust with all your heart.",
-"Krishna is your eternal friend."
+"Krishna is your eternal friend.",
 "Krishna's smile removes every fear.",
 "The strongest heart is filled with devotion.",
 "Walk in faith, not in doubt.",
@@ -149,7 +149,7 @@ const quotes = [
 "The greatest wealth is inner peace.",
 "Let gratitude fill your heart.",
 "Believe that better days are coming.",
-"Your soul belongs to eternity."
+"Your soul belongs to eternity.",
 "Krishna reminds me that I am never alone.",
 "I trust the process of life.",
 "I choose patience over haste.",
@@ -199,7 +199,7 @@ const quotes = [
 "I welcome happiness into my life.",
 "Every day is a gift from Krishna.",
 "I choose gratitude again and again.",
-"My soul walks in Krishna's light.",
+"My soul walks in Krishna's light."
 ];
 
 function newQuote() {
