@@ -1,33 +1,131 @@
 body{
+  margin:0;
+  padding:40px;
   background:#fff8ef;
   font-family:Georgia, serif;
   text-align:center;
-  padding:40px;
+  color:#17367d;
 }
 
 h1{
   color:#183a8a;
+  font-size:56px;
+  margin-bottom:10px;
+}
+
+.subtitle{
+  font-size:26px;
+  color:#9b6b2d;
+  margin-bottom:25px;
+}
+
+.card{
+  background:white;
+  max-width:850px;
+  margin:30px auto;
+  padding:35px;
+  border-radius:30px;
+  border:3px solid #efd7a0;
+  box-shadow:0 10px 30px rgba(0,0,0,.12);
+}
+
+.badge{
+  display:inline-block;
+  background:#fff0f5;
+  border:2px solid #f3c7d7;
+  padding:12px 28px;
+  border-radius:40px;
+  font-size:20px;
+  color:#8b5c2c;
+  margin-bottom:20px;
+}
+
+.icon{
   font-size:42px;
+  margin-bottom:15px;
+}
+
+#quote{
+  font-size:42px;
+  color:#17367d;
+  line-height:1.5;
+  margin:25px 0;
+}
+
+.divider{
+  color:#d4a12f;
+  font-size:28px;
+  margin-bottom:25px;
+}
+
+button{
+  margin-top:20px;
+  background:#1c2f8a;
+  color:white;
+  border:none;
+  padding:18px 38px;
+  border-radius:50px;
+  font-size:22px;
+  cursor:pointer;
+  box-shadow:0 8px 18px rgba(0,0,0,.2);
+}
+
+button:hover{
+  transform:scale(1.05);
+}
+
+.favorite{
+  margin:25px auto 0;
+  width:280px;
+  padding:15px;
+  border:2px solid #d9b56c;
+  border-radius:40px;
+  background:white;
+  color:#a16c2c;
+  font-size:20px;
+}
+
+.message{
+  max-width:800px;
+  margin:30px auto;
+  padding:18px;
+  background:white;
+  border:2px solid #efd7a0;
+  border-radius:20px;
+  font-size:18px;
+  color:#555;
+}
+
+.footer{
+  margin-top:30px;
+  background:#17367d;
+  color:white;
+  padding:20px;
+  border-radius:20px;
+  font-size:20px;
+}
+
+@media (max-width:768px){
+
+h1{
+  font-size:42px;
+}
+
+.subtitle{
+  font-size:20px;
 }
 
 #quote{
   font-size:28px;
-  color:#333;
-  max-width:700px;
-  margin:auto;
-  padding:30px;
-  background:white;
-  border-radius:20px;
-  box-shadow:0 5px 20px rgba(0,0,0,.1);
 }
 
 button{
-  margin-top:30px;
-  background:#1c2f8a;
-  color:white;
-  border:none;
-  padding:15px 30px;
-  border-radius:50px;
-  font-size:20px;
-  cursor:pointer;
+  font-size:18px;
+  padding:15px 28px;
+}
+
+.favorite{
+  width:90%;
+}
+
 }
